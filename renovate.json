@@ -4,5 +4,7 @@
     "config:base"
   ],
   "dependencyDashboard": true,
-  "securityUpdates": true
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
