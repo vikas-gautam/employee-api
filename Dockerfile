@@ -15,7 +15,7 @@ COPY api/ api/
 COPY main.go main.go
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GO111MODULE=on go build -a -o employee-api main.go
 
-FROM alpine:3.18.0
+FROM alpine:3.19.1
 LABEL authors="Opstree Solution" \
       contact="opensource@opstree.com" \
       version="v0.1.0"
