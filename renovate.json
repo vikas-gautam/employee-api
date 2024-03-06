@@ -3,6 +3,9 @@
   "extends": [
     "config:base"
   ],
-  "dependencyDashboard": true
-  "securityUpdates": true
+  "dependencyDashboard": true,
+  "securityUpdates": true,
+  "vulnerabilityAlerts":{
+     "enabled":"true"
+   }
 }
